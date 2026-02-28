@@ -1,0 +1,67 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Montserrat", sans-serif;
+
+  --color-primary: oklch(54.832% 0.21767 19.699);
+  --color-secondary: oklch(59.649% 0.00007 271.152);
+  --color-background: oklch(14.18% 0.05153 18.539);
+  --color-background-light: oklch(91.887% 0.0001 271.152);
+  --color-highlight: oklch(39.185% 0.15613 16.617);
+}
+
+/* aplica global */
+html,
+body {
+  font-family: var(--font-display);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* ===== Scrollbar Premium HYS ===== */
+
+/* Chrome, Edge, Safari */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: oklch(14.18% 0.05153 18.539); /* seu --color-background */
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(to bottom, oklch(0% 0 0), transparent);
+  border-radius: 999px;
+  border: 2px solid oklch(14.18% 0.05153 18.539);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  opacity: 0.9;
+}
+
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: oklch(0% 0 0) transparent;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.marquee-track {
+  animation: marquee 40s linear infinite;
+  will-change: transform;
+}
+
+/* PAUSA quando o mouse estiver no container */
+.marquee:hover .marquee-track {
+  animation-play-state: paused;
+}
