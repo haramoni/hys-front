@@ -1,17 +1,17 @@
 export function PortfolioCarousel() {
   const items = [
-    { src: "/src/assets/atlas1.jpg", title: "Atlas" },
-    { src: "/src/assets/atlas2.jpg", title: "Atlas" },
-    { src: "/src/assets/cbb1.jpg", title: "CBB" },
-    { src: "/src/assets/cbb2.jpg", title: "CBB" },
-    { src: "/src/assets/ethera.jpg", title: "Ethera" },
-    { src: "/src/assets/ethera1.jpg", title: "Ethera" },
-    { src: "/src/assets/hsi1.jpg", title: "HSI" },
-    { src: "/src/assets/hsi2.jpg", title: "HSI" },
-    { src: "/src/assets/mentos1.jpg", title: "Mentos" },
-    { src: "/src/assets/mentos2.jpg", title: "Mentos" },
-    { src: "/src/assets/singular1.jpg", title: "Singular" },
-    { src: "/src/assets/singular2.jpg", title: "Singular" },
+    { src: "atlas1.jpg", title: "Atlas" },
+    { src: "atlas2.jpg", title: "Atlas" },
+    { src: "cbb1.jpg", title: "CBB" },
+    { src: "cbb2.jpg", title: "CBB" },
+    { src: "ethera.jpg", title: "Ethera" },
+    { src: "ethera1.jpg", title: "Ethera" },
+    { src: "hsi1.jpg", title: "HSI" },
+    { src: "hsi2.jpg", title: "HSI" },
+    { src: "mentos1.jpg", title: "Mentos" },
+    { src: "mentos2.jpg", title: "Mentos" },
+    { src: "singular1.jpg", title: "Singular" },
+    { src: "singular2.jpg", title: "Singular" },
   ];
 
   const loop = [...items, ...items];
