@@ -3,36 +3,36 @@ import { ServiceCard, type ServiceCardProps } from "./shared/ServiceCard";
 export function Servicos() {
   const servicos: ServiceCardProps["servicos"] = [
     {
-      foto: "assets/display.png",
+      foto: "/display.png",
       descricao: "Display",
     },
     {
-      foto: "assets/marcenaria.png",
+      foto: "/marcenaria.png",
       descricao: "Marcenaria",
     },
     {
-      foto: "assets/tapecaria.png",
+      foto: "/tapecaria.png",
       descricao: "Tapeçaria",
     },
     {
-      foto: "assets/eletrica.png",
+      foto: "/eletrica.png",
       descricao: "Eletrica",
     },
     {
-      foto: "assets/locacao-moveis.png",
+      foto: "/locacao-moveis.png",
       descricao: "Locação de Móveis",
     },
 
     {
-      foto: "assets/paisagismo.png",
+      foto: "/paisagismo.png",
       descricao: "Paisagismo",
     },
     {
-      foto: "assets/pintura.png",
+      foto: "/pintura.png",
       descricao: "Pintura",
     },
     {
-      foto: "assets/limpeza.png",
+      foto: "/limpeza.png",
       descricao: "Limpeza",
     },
   ];

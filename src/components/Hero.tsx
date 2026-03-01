@@ -1,4 +1,4 @@
-import heroImage from "../assets/copia.jpg";
+import heroImage from "/copia.jpg";
 import { WhatsButton } from "./shared/WhatsButton";
 
 export function Hero() {
