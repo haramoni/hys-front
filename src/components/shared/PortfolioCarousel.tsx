@@ -1,17 +1,17 @@
 export function PortfolioCarousel() {
   const items = [
-    { src: "atlas1.jpg", title: "Atlas" },
-    { src: "atlas2.jpg", title: "Atlas" },
-    { src: "cbb1.jpg", title: "CBB" },
-    { src: "cbb2.jpg", title: "CBB" },
-    { src: "ethera.jpg", title: "Ethera" },
-    { src: "ethera1.jpg", title: "Ethera" },
-    { src: "hsi1.jpg", title: "HSI" },
-    { src: "hsi2.jpg", title: "HSI" },
-    { src: "mentos1.jpg", title: "Mentos" },
-    { src: "mentos2.jpg", title: "Mentos" },
-    { src: "singular1.jpg", title: "Singular" },
-    { src: "singular2.jpg", title: "Singular" },
+    { src: "/atlas1.jpg", title: "Atlas" },
+    { src: "/atlas2.jpg", title: "Atlas" },
+    { src: "/cbb1.jpg", title: "CBB" },
+    { src: "/cbb2.jpg", title: "CBB" },
+    { src: "/ethera.jpg", title: "Ethera" },
+    { src: "/ethera1.jpg", title: "Ethera" },
+    { src: "/hsi1.jpg", title: "HSI" },
+    { src: "/hsi2.jpg", title: "HSI" },
+    { src: "/mentos1.jpg", title: "Mentos" },
+    { src: "/mentos2.jpg", title: "Mentos" },
+    { src: "/singular1.jpg", title: "Singular" },
+    { src: "/singular2.jpg", title: "Singular" },
   ];
 
   const loop = [...items, ...items];
