@@ -1,4 +1,5 @@
 import { PortfolioCarousel } from "./shared/PortfolioCarousel";
+import { portfolioCarousels } from "./shared/StandItems";
 
 export function Portfolio() {
   return (
@@ -11,8 +12,12 @@ export function Portfolio() {
           NOSSO PORTFÓLIO
         </h2>
         <h5 className="text-white">Alguns dos nossos projetos realizados:</h5>
-        <PortfolioCarousel />
+
+        {Object.entries(portfolioCarousels).map(([name, items]) => (
+          <PortfolioCarousel key={name} items={items} />
+        ))}
       </div>
+
       <div className="h-0.5 w-full bg-white/10" />
     </div>
   );

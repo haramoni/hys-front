@@ -1,38 +1,48 @@
+import {
+  Armchair,
+  Birdhouse,
+  BrushCleaning,
+  LeafyGreen,
+  Paintbrush,
+  ShelvingUnit,
+  Zap,
+} from "lucide-react";
 import { ServiceCard, type ServiceCardProps } from "./shared/ServiceCard";
+import { PiNeedle } from "react-icons/pi";
 
 export function Servicos() {
   const servicos: ServiceCardProps["servicos"] = [
     {
-      foto: "/display.png",
+      foto: <ShelvingUnit size={40} />,
       descricao: "Display",
     },
     {
-      foto: "/marcenaria.png",
+      foto: <Birdhouse size={40} />,
       descricao: "Marcenaria",
     },
     {
-      foto: "/tapecaria.png",
+      foto: <PiNeedle size={40} />,
       descricao: "Tapeçaria",
     },
     {
-      foto: "/eletrica.png",
-      descricao: "Eletrica",
+      foto: <Zap size={40} />,
+      descricao: "Elétrica",
     },
     {
-      foto: "/locacao-moveis.png",
+      foto: <Armchair size={40} />,
       descricao: "Locação de Móveis",
     },
 
     {
-      foto: "/paisagismo.png",
+      foto: <LeafyGreen size={40} />,
       descricao: "Paisagismo",
     },
     {
-      foto: "/pintura.png",
+      foto: <Paintbrush size={40} />,
       descricao: "Pintura",
     },
     {
-      foto: "/limpeza.png",
+      foto: <BrushCleaning size={40} />,
       descricao: "Limpeza",
     },
   ];
@@ -40,10 +50,9 @@ export function Servicos() {
   return (
     <div
       id="servicos"
-      className="flex flex-col mx-auto max-w-6xl md:px-10 lg:px-12 py-14 px-12"
+      className="flex flex-col mx-auto max-w-6xl md:px-10 lg:px-12 py-14 px-12 gap-5"
     >
       <h2 className="text-3xl font-bold tracking-wide ">SERVIÇOS </h2>
-      <div className="mt-3 h-px w-full bg-black/10" />
 
       <ServiceCard servicos={servicos} />
     </div>
