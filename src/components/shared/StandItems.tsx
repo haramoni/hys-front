@@ -27,6 +27,12 @@ export const portfolioCarousels: Record<string, CarouselItem[]> = {
     { src: "/ici2.jpeg", title: "ICI" },
     { src: "/ici3.jpeg", title: "ICI" },
   ],
+  Madcrill: [
+    { src: "/madcrill1.jpg", title: "Madcrill" },
+    { src: "/madcrill2.jpg", title: "Madcrill" },
+    { src: "/madcrill3.jpg", title: "Madcrill" },
+    { src: "/madcrill4.jpg", title: "Madcrill" },
+  ],
   Mentos: [
     { src: "/mentos1.jpg", title: "Mentos" },
     { src: "/mentos2.jpg", title: "Mentos" },
