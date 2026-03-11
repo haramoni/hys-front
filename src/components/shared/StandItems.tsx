@@ -7,6 +7,11 @@ export const portfolioCarousels: Record<string, CarouselItem[]> = {
     { src: "/atlas2.jpg", title: "Atlas" },
     { src: "/atlas3.jpg", title: "Atlas" },
   ],
+  Azul: [
+    { src: "/azul1.jpg", title: "Azul - Linhas Aéreas" },
+    { src: "/azul2.jpg", title: "Azul - Linhas Aéreas" },
+    { src: "/azul3.jpg", title: "Azul - Linhas Aéreas" },
+  ],
   CBB: [
     { src: "/cbb1.jpg", title: "CBB" },
     { src: "/cbb2.jpg", title: "CBB" },
@@ -37,6 +42,12 @@ export const portfolioCarousels: Record<string, CarouselItem[]> = {
     { src: "/mentos1.jpg", title: "Mentos" },
     { src: "/mentos2.jpg", title: "Mentos" },
     { src: "/mentos3.jpg", title: "Mentos" },
+  ],
+  Munila: [
+    { src: "/munila1.jpg", title: "Munila" },
+    { src: "/munila2.jpg", title: "Munila" },
+    { src: "/munila3.jpg", title: "Munila" },
+    { src: "/munila4.jpg", title: "Munila" },
   ],
   Singular: [
     { src: "/singular1.jpg", title: "Singular" },
