@@ -1,17 +1,17 @@
 export function PortfolioFan() {
   const items = [
     {
-      src: "/marcenaria.png",
+      src: "/marcenaria.webp",
       alt: "Stand corporativo",
       label: "Marcenaria Própria",
     },
     {
-      src: "/montagem.png",
+      src: "/montagem.webp",
       alt: "Stand premium",
       label: "Montagem Completa",
     },
     {
-      src: "/instagramavel.png",
+      src: "/instagramavel.webp",
       alt: "Quiosque comercial",
       label: "Projetos Instagramáveis",
     },

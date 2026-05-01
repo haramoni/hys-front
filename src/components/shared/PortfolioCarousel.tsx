@@ -10,7 +10,7 @@ type PortfolioCarouselProps = {
   items: CarouselItem[];
 };
 
-export function PortfolioCarousel({ items }: PortfolioCarouselProps) {
+export default function PortfolioCarousel({ items }: PortfolioCarouselProps) {
   const loop = useMemo(() => [...items, ...items], [items]); // duplica para o efeito de loop
 
   const [open, setOpen] = useState(false);

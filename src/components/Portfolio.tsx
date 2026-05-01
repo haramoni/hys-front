@@ -1,5 +1,7 @@
-import { PortfolioCarousel } from "./shared/PortfolioCarousel";
 import { portfolioCarousels } from "./shared/StandItems";
+import { lazy } from "react";
+
+const PortfolioCarousel = lazy(() => import("./shared/PortfolioCarousel"));
 
 export function Portfolio() {
   return (
