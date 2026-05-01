@@ -54,4 +54,14 @@ export const portfolioCarousels: Record<string, CarouselItem[]> = {
     { src: "/singular2.webp", title: "Singular" },
     { src: "/singular3.webp", title: "Singular" },
   ],
+  Solinftec: [
+    { src: "/solinftec1.webp", title: "Solinftec" },
+    { src: "/solinftec2.webp", title: "Solinftec" },
+    { src: "/solinftec3.webp", title: "Solinftec" },
+    { src: "/solinftec4.webp", title: "Solinftec" },
+    { src: "/solinftec5.webp", title: "Solinftec" },
+    { src: "/solinftec6.webp", title: "Solinftec" },
+    { src: "/solinftec7.webp", title: "Solinftec" },
+    { src: "/solinftec8.webp", title: "Solinftec" },
+  ],
 };
